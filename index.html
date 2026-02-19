@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azen - Viva a experiência máxima do voo livre. Voo duplo de parapente profissional em meio à natureza.">
+    <title>Azen Parapente | Sinta a Liberdade</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Azen</a>
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#safety">Segurança</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#pricing" class="btn btn-primary header-cta">RESERVAR VOO</a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <span class="pill-badge">O CÉU ESTÁ CHAMANDO</span>
+            <h1>SINTA A <br><span class="highlight">LIBERDADE</span></h1>
+            <p class="hero-sub">Viva a experiência máxima do voo livre com a Azen.<br>Voo duplo de parapente profissional em meio à natureza.</p>
+            
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-primary">RESERVAR SEU VOO</a>
+                <a href="#video" class="btn btn-secondary"><i data-lucide="play-circle"></i> ASSISTIR VÍDEO</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>POR QUE VOAR COM A AZEN?</h2>
+                <p class="section-sub">Não oferecemos apenas um voo. Criamos uma memória que dura para a vida toda.<br>Segurança, paixão e liberdade estão no nosso DNA.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>100% SEGURO</h3>
+                    <p>Pilotos certificados, milhares de horas de voo e equipamentos de alto nível.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i data-lucide="mountain"></i>
+                    </div>
+                    <h3>MELHORES VISTAS</h3>
+                    <p>Sobrevoe montanhas, vales e paisagens que você jamais esquecerá.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>PURA ADRENALINA</h3>
+                    <p>De voos suaves a manobras acrobáticas, adaptamos a experiência a você.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i data-lucide="star"></i>
+                    </div>
+                    <h3>AVALIAÇÃO MÁXIMA</h3>
+                    <p>Experiência mais bem avaliada da região por clientes e turistas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing Section -->
+    <section id="pricing" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>ESCOLHA SUA <span class="highlight-text">AVENTURA</span></h2>
+                <p class="section-sub">Preços transparentes. Sem taxas ocultas. Apenas voar.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Discovery Plan -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">Discovery</h3>
+                    <div class="price">R$ 450 <span class="per-person">/ pessoa</span></div>
+                    <p class="plan-desc">Ideal para primeira experiência. Voo suave e panorâmico.</p>
+                    
+                    <ul class="plan-features">
+                        <li><i data-lucide="check"></i> Voo panorâmico</li>
+                        <li><i data-lucide="check"></i> Fotos em HD</li>
+                        <li><i data-lucide="check"></i> Certificado de voo</li>
+                        <li><i data-lucide="check"></i> Transporte até a rampa</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-outline full-width">RESERVAR AGORA</a>
+                </div>
+                
+                <!-- Adrenaline Plan (Featured) -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">MAIS POPULAR</div>
+                    <h3 class="plan-name">Adrenaline</h3>
+                    <div class="price">R$ 650 <span class="per-person">/ pessoa</span></div>
+                    <p class="plan-desc">Mais emoção e manobras.</p>
+                    
+                    <ul class="plan-features">
+                        <li><i data-lucide="check"></i> Manobras acrobáticas</li>
+                        <li><i data-lucide="check"></i> Fotos e vídeos 4K</li>
+                        <li><i data-lucide="check"></i> Maior tempo de voo</li>
+                        <li><i data-lucide="check"></i> Transporte até a rampa</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-primary full-width">RESERVAR AGORA</a>
+                </div>
+                
+                <!-- Expedition Plan -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">Expedition</h3>
+                    <div class="price">R$ 890 <span class="per-person">/ pessoa</span></div>
+                    <p class="plan-desc">Voo cross-country. Mais alto e mais longe.</p>
+                    
+                    <ul class="plan-features">
+                        <li><i data-lucide="check"></i> Rota cross-country</li>
+                        <li><i data-lucide="check"></i> Pacote completo de mídia</li>
+                        <li><i data-lucide="check"></i> Introdução ao voo</li>
+                        <li><i data-lucide="check"></i> Transporte premium</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-outline full-width">RESERVAR AGORA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Final CTA Section -->
+    <section id="cta" class="dark-section">
+        <div class="container two-col-grid">
+            <div class="cta-content">
+                <h2>PRONTO PARA DECOLAR?</h2>
+                <p>Reserve seu voo hoje ou fale conosco para grupos, descontos especiais e experiências personalizadas.</p>
+                
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="location-card">
+                <h3>LOCALIZAÇÃO</h3>
+                <p>Atendemos Resende, Penedo e região.<br>Voos realizados apenas com condições climáticas ideais.</p>
+                <a href="#" class="btn btn-primary sm-full-width">COMO CHEGAR</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Azen</div>
+            
+            <ul class="footer-links">
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#safety">Segurança</a></li>
+                <li><a href="#pricing">Preços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            
+            <div class="footer-legal">
+                <p>&copy; 2026 Azen Parapente. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
